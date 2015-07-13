@@ -1,0 +1,13 @@
+_send_dec: CODE, 267 0 658
+_init: CODE, 3926 0 60
+_delay: CODE, 3842 0 42
+_main: CODE, 925 0 1123
+_lcd_clr: CODE, 3672 0 20
+_lcd_goto: CODE, 3742 0 29
+_send_string: CODE, 3804 0 38
+___lldiv: CODE, 3986 0 110
+_send_config: CODE, 3717 0 25
+_e_pulse: CODE, 3771 0 33
+_send_char: CODE, 3692 0 25
+___llmod: CODE, 175 0 92
+Total: 2255
