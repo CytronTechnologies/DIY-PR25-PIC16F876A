@@ -1,0 +1,180 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F876A ]
+[d frameptr 6 ]
+"64 D:\DIY\PIC16F876A DIY PR25/Source file/PR25.c
+[v _main main `(v  1 e 0 0 ]
+"268
+[v _init init `(v  1 e 0 0 ]
+"293
+[v _delay delay `(v  1 e 0 0 ]
+"299
+[v _send_config send_config `(v  1 e 0 0 ]
+"307
+[v _send_char send_char `(v  1 e 0 0 ]
+"315
+[v _send_dec send_dec `(v  1 e 0 0 ]
+"369
+[v _e_pulse e_pulse `(v  1 e 0 0 ]
+"377
+[v _lcd_goto lcd_goto `(v  1 e 0 0 ]
+"391
+[v _lcd_clr lcd_clr `(v  1 e 0 0 ]
+"397
+[v _send_string send_string `(v  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"209 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic16f876a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1190
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1239
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1300
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1954
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2268
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"2270
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"2276
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"2302
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2304
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2306
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2308
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2310
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"64 D:\DIY\PIC16F876A DIY PR25/Source file/PR25.c
+[v _main main `(v  1 e 0 0 ]
+{
+"67
+[v main@data data `[26]uc  1 a 26 10 ]
+"72
+[v main@id2 id2 `[2]ui  1 a 4 37 ]
+"69
+[v main@convert2 convert2 `ui  1 a 2 46 ]
+"71
+[v main@id1 id1 `[2]uc  1 a 2 41 ]
+"66
+[v main@i i `uc  1 a 1 50 ]
+[v main@repeat repeat `uc  1 a 1 49 ]
+"68
+[v main@convert1 convert1 `uc  1 a 1 48 ]
+"66
+[v main@b b `uc  1 a 1 45 ]
+"70
+[v main@mode mode `uc  1 a 1 44 ]
+"66
+[v main@a a `uc  1 a 1 43 ]
+[v main@database database `uc  1 a 1 36 ]
+"70
+[v main@F1015 F1015 `[2]uc  1 s 2 F1015 ]
+"71
+[v main@F1017 F1017 `[2]ui  1 s 4 F1017 ]
+"264
+} 0
+"397
+[v _send_string send_string `(v  1 e 0 0 ]
+{
+[v send_string@s s `*.24DCCuc  1 a 1 wreg ]
+[v send_string@s s `*.24DCCuc  1 a 1 wreg ]
+[v send_string@s s `*.24DCCuc  1 a 1 8 ]
+"400
+} 0
+"315
+[v _send_dec send_dec `(v  1 e 0 0 ]
+{
+[v send_dec@data data `ul  1 p 4 0 ]
+[v send_dec@num_dig num_dig `uc  1 p 1 4 ]
+"367
+} 0
+"307
+[v _send_char send_char `(v  1 e 0 0 ]
+{
+[v send_char@data data `uc  1 a 1 wreg ]
+[v send_char@data data `uc  1 a 1 wreg ]
+"309
+[v send_char@data data `uc  1 a 1 6 ]
+"313
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 9 ]
+"6
+[v ___llmod@divisor divisor `ul  1 p 4 0 ]
+[v ___llmod@dividend dividend `ul  1 p 4 4 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"6
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"31
+} 0
+"377 D:\DIY\PIC16F876A DIY PR25/Source file/PR25.c
+[v _lcd_goto lcd_goto `(v  1 e 0 0 ]
+{
+[v lcd_goto@data data `uc  1 a 1 wreg ]
+[v lcd_goto@data data `uc  1 a 1 wreg ]
+"379
+[v lcd_goto@data data `uc  1 a 1 8 ]
+"388
+} 0
+"391
+[v _lcd_clr lcd_clr `(v  1 e 0 0 ]
+{
+"395
+} 0
+"268
+[v _init init `(v  1 e 0 0 ]
+{
+"289
+} 0
+"299
+[v _send_config send_config `(v  1 e 0 0 ]
+{
+[v send_config@data data `uc  1 a 1 wreg ]
+[v send_config@data data `uc  1 a 1 wreg ]
+"301
+[v send_config@data data `uc  1 a 1 6 ]
+"305
+} 0
+"369
+[v _e_pulse e_pulse `(v  1 e 0 0 ]
+{
+"375
+} 0
+"293
+[v _delay delay `(v  1 e 0 0 ]
+{
+"295
+[v delay@i i `i  1 a 2 4 ]
+"293
+[v delay@data data `ul  1 p 4 0 ]
+"297
+} 0
